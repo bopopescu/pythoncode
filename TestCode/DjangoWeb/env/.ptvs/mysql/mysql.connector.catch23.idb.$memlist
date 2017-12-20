@@ -1,0 +1,15 @@
+PY2
+STRING_TYPES
+init_bytearray
+Decimal
+make_abc
+HexLiteral
+struct_unpack
+INT_TYPES
+BYTE_TYPES
+NUMERIC_TYPES
+isstr
+struct
+UNICODE_TYPES
+sys
+isunicode

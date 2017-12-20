@@ -1,0 +1,13 @@
+codecs
+MySQLOptionsParser
+os
+SafeConfigParser
+MissingSectionHeaderError
+CNX_FABRIC_ARGS
+PY2
+CNX_POOL_ARGS
+DEFAULT_CONFIGURATION
+read_option_files
+DEFAULT_EXTENSIONS
+io
+re

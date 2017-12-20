@@ -1,0 +1,13 @@
+PY2
+sha1
+struct
+errors
+sha256
+MySQLNativePasswordAuthPlugin
+get_auth_plugin
+BaseAuthPlugin
+MySQLSHA256PasswordAuthPlugin
+isstr
+MySQLClearPasswordAuthPlugin
+UNICODE_TYPES
+MySQLCachingSHA2PasswordAuthPlugin

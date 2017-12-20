@@ -1,0 +1,7 @@
+DatabaseFeatures
+six
+django
+HAVE_PYTZ
+cached_property
+BaseDatabaseFeatures
+pytz

@@ -1,0 +1,48 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ hello }}</h2>
+<address> 
+    <table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>UserName</th>
+            <th>Gender</th>
+            <th>Position</th>
+            <th>操作</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in userlist %}
+        <tr>
+            <td>{{ item.Id }}</td>
+            <td>{{ item.UserName }}</td>
+            <td>{{ item.Gender }}</td>
+            <td>{{ item.Position }}</td>
+            <td><a href="delete/?Id={{ item.Id }}">删除</a></td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+<h2>{{ ApiContent }}</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>产品类型</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in datalist %}
+        <tr>
+            <td>{{ item.Id }}</td>
+            <td>{{ item.name }}</td>
+        </tr>
+        {% endfor %}
+    </tbody> 
+</table>
+</address>
+
+{% endblock %}

@@ -1,0 +1,8 @@
+hexlify
+PlainAuthPlugin
+PY3
+ExternalAuthPlugin
+hashlib
+MySQL41AuthPlugin
+struct
+UNICODE_TYPES

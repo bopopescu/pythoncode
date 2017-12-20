@@ -1,0 +1,12 @@
+DatabaseOperations
+timezone
+HAVE_CEXT
+BaseDatabaseOperations
+django
+force_text
+uuid
+six
+datetime_to_mysql
+unicode_literals
+time_to_mysql
+settings

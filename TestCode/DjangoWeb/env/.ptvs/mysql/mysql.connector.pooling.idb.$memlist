@@ -1,0 +1,13 @@
+MySQLConnection
+uuid4
+generate_pool_name
+errors
+threading
+CNX_POOL_NAMEREGEX
+CNX_POOL_MAXNAMESIZE
+CONNECTION_POOL_LOCK
+queue
+MySQLConnectionPool
+PooledMySQLConnection
+re
+CNX_POOL_MAXSIZE

@@ -1,0 +1,28 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2> 
+{% ifnotequal  title '添加成功' %}
+<form action="add" method="post">
+    {% csrf_token %}
+   <table class="table table-bordered">
+    <tr>
+        <td> <label>名称： </label></td>
+        <td> <input name="UserName" type="text"></td>
+    </tr>
+       <tr>
+        <td> <label>性别： </label></td>
+        <td><input name="Gender" type="text"></td>
+    </tr>
+       <tr>
+        <td><label>职业： </label></td>
+        <td><input name="Position" type="text"></td>
+    </tr> 
+       <tr> 
+        <td colspan="2"><input value="提交" type="submit"></td>
+    </tr>
+</table>  
+</form>
+{% endifnotequal %}
+{% endblock %}

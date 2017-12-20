@@ -1,0 +1,16 @@
+sys
+_prepare_packets
+PY2
+ssl
+struct
+struct_unpack
+zlib
+deque
+_strioerror
+BaseMySQLSocket
+errors
+MySQLUnixSocket
+MySQLTCPSocket
+socket
+constants
+init_bytearray

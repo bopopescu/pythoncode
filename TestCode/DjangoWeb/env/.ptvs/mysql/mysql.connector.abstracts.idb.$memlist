@@ -1,0 +1,17 @@
+MySQLConnectionAbstract
+time
+MySQLOptionsParser
+CharacterSet
+re
+abstractproperty
+BYTE_TYPES
+DEFAULT_CONFIGURATION
+abstractmethod
+make_abc
+ABCMeta
+NAMED_TUPLE_CACHE
+errors
+weakref
+ClientFlag
+MySQLCursorAbstract
+MySQLConverterBase

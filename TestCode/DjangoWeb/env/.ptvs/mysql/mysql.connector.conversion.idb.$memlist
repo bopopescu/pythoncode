@@ -1,0 +1,12 @@
+datetime
+FieldFlag
+MySQLConverter
+time
+Decimal
+PY2
+struct_unpack
+NUMERIC_TYPES
+MySQLConverterBase
+CharacterSet
+FieldType
+HexLiteral

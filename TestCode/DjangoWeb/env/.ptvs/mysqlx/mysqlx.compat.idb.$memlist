@@ -1,0 +1,13 @@
+INT_TYPES
+urlparse
+PY3
+sys
+parse_qsl
+STRING_TYPES
+hexlify
+NUMERIC_TYPES
+unquote
+binascii
+UNICODE_TYPES
+decimal
+BYTE_TYPES
